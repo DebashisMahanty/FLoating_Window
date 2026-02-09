@@ -1,0 +1,110 @@
+#ai-interview-copilot {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  width: 320px;
+  background: #111827;
+  color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  font-family: "Inter", system-ui, sans-serif;
+  z-index: 2147483647;
+}
+
+#ai-interview-copilot.hidden {
+  display: none;
+}
+
+#ai-interview-copilot .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  cursor: move;
+  background: #1f2937;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-weight: 600;
+}
+
+#ai-interview-copilot .status {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+#ai-interview-copilot .content {
+  padding: 12px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#ai-interview-copilot .controls {
+  display: flex;
+  gap: 8px;
+}
+
+#ai-interview-copilot button {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#ai-interview-copilot .mic-on {
+  background: #10b981;
+  color: #06281a;
+}
+
+#ai-interview-copilot .mic-off {
+  background: #ef4444;
+  color: #fff;
+}
+
+#ai-interview-copilot .generate {
+  background: #3b82f6;
+  color: #fff;
+}
+
+#ai-interview-copilot .panel {
+  background: #0f172a;
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 70px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #e5e7eb;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+#ai-interview-copilot .label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #9ca3af;
+}
+
+#ai-interview-copilot .error {
+  color: #fca5a5;
+  font-size: 12px;
+}
+
+#ai-interview-copilot .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+#ai-interview-copilot .link-button {
+  background: transparent;
+  border: none;
+  color: #93c5fd;
+  cursor: pointer;
+  padding: 0;
+  font-size: 11px;
+}
